@@ -51,7 +51,7 @@ function jump(){
             } else if (cactusPosition > 0 && cactusPosition < 60 && position <60 && position <60) {
                 //game over 
                 clearInterval(leftInterval);
-                document.body.innerHTML ='<h1 class="game-over"> Fim de jogo </h1>';}
+                document.body.innerHTML ='<h1 class="game-over"> Fim de jogo </h1> <br><br><br> <h5 class="game-over"> Desenvolvido por Milena Carecho </h5> ';}
                 else{
                 cactusPosition -= 10;
                 cactus.style.left = cactusPosition + 'px';
